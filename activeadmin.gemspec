@@ -19,11 +19,11 @@ Gem::Specification.new do |s|
   s.add_dependency 'bourbon'
   s.add_dependency 'coffee-rails'
   s.add_dependency 'formtastic',          '~> 3.0'
-  s.add_dependency 'inherited_resources', '~> 1.4.1'
+  s.add_dependency 'inherited_resources', '~> 1.5' # adjusted for using Rails 4.2.0beta2
   s.add_dependency 'jquery-rails'
   s.add_dependency 'jquery-ui-rails',     '~> 5.0'
   s.add_dependency 'kaminari',            '~> 0.15'
   s.add_dependency 'rails',               '>= 3.2', '< 4.2'
-  s.add_dependency 'ransack',             '~> 1.3'
+  s.add_dependency 'ransack',             '1.2.4' # adjusted for using Rails 4.2.0beta2
   s.add_dependency 'sass-rails'
 end
